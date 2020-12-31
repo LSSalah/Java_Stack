@@ -6,8 +6,10 @@ public class PokemonTest {
 		Pokedex p= new Pokedex();
 		
 		ArrayList<Pokemon> pokemonList =new ArrayList<Pokemon>();
-		Pokemon  pokemon = new Pokemon("Ahmad",10,"java");
+		Pokemon  pokemon = new Pokemon("Salah",10,"java");
+		Pokemon  pokemonA = new Pokemon("Ahmad",10,"Spring");
 		pokemonList.add(pokemon);
+		pokemonList.add(pokemonA);
 	    p.setPokemon(pokemonList);
 	    p.listPokemon();
 		

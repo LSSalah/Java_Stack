@@ -16,6 +16,7 @@ public class Pokemon {
 		this.name = name;
 		this.health = health;
 		this.type = type;
+		setCount(++count);
 		
 	}
 	
